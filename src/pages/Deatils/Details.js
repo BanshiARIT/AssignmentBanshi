@@ -43,9 +43,9 @@ export default class Details extends Component {
             </CardItem>
             <CardItem>
               <Body>
-                <Text>{`Nanameme : ${this.state.name}`}</Text>
+                <Text>{`name : ${this.state.name}`}</Text>
 
-                <Text>{`NASA nasa_jpl_url : ${this.state.nasa_jpl_url}`}</Text>
+                <Text>{`nasa_jpl_url : ${this.state.nasa_jpl_url}`}</Text>
                 <Text>
                   {`is_potentially_hazardous_asteroid : ${this.state.is_potentially_hazardous_asteroid}`}
                 </Text>
